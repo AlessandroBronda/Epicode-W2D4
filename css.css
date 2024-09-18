@@ -1,0 +1,469 @@
+body {
+  margin: auto;
+  font-family: Helvetica, sans-serif;
+}
+
+/* ********TOP BANNER******** */
+.TopBanner {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 10;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.100);
+
+}
+
+.TopBanner img {
+  height: 40%;
+  margin-left: 150px;
+}
+
+#Logo:hover {
+  cursor: pointer;
+}
+
+.HeaderIcons {
+  display: flex;
+  align-items: center;
+  margin-left: 55%;
+  opacity: 0.5;
+  height: 60%;
+}
+
+
+.HeaderIcons img {
+  margin: 10px;
+}
+
+#bk:hover {
+  cursor: pointer;
+  scale: 120%;
+  transition: scale 0.075s ease;
+}
+
+#mgn:hover {
+  cursor: pointer;
+  scale: 120%;
+  transition: scale 0.075s ease;
+}
+
+#Bell:hover {
+  cursor: pointer;
+  scale: 120%;
+  transition: scale 0.075s ease;
+}
+
+.Membership {
+  opacity: 85%;
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 40px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.Membership:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s ease;
+  transition: color 0.1s ease;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  background-color: rgb(150, 177, 109);
+  margin-left: 20px;
+  border-radius: 19px;
+}
+
+.Profile:hover {
+  cursor: pointer;
+  scale: 120%;
+  transition: scale 0.3s ease-in;
+}
+
+.Profile p {
+  color: white;
+  margin-left: 11.5px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/* ******** MAIN ******** */
+
+.Structure {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.LeftContent {
+  /* background-color: blue; */
+  width: 60%;
+  height: 2000px;
+  border-right: 1px solid rgba(0, 0, 0, 0.100);
+}
+
+
+
+.Articles {
+  /* background-color: brown; */
+  margin-top: 200px;
+  margin-left: 12%;
+  margin-right: 8%;
+  height: 80%;
+}
+
+#Menu {
+  /* background-color: rgba(0, 0, 0, 0.068); */
+  display: flex;
+  align-items: flex-start;
+  gap: 35px;
+  height: 50px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.100);
+}
+
+#Menu p {
+
+
+  /* background-color: beige; */
+  margin-top: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  padding-bottom: 16px;
+  opacity: 50%;
+}
+
+#Menu p:hover {
+  cursor: pointer;
+  border-bottom: 1px solid black;
+  opacity: 100%;
+  transition: opacity 0.2s ease;
+}
+
+.Elements {
+  /*  background-color: rgb(255, 0, 234); */
+  margin-top: 50px;
+  display: flex;
+ flex-direction: column;
+ gap: 60px;
+  width: 100%;
+  height: 100%;
+}
+
+.Container {
+  /* background-color: beige; */
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  height: 12%;
+
+}
+
+.Article1 {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: baseline;
+  width: 65%;
+  height: 15%;
+}
+
+#Author {
+  /*  background-color: bisque; */
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+
+#Author img {
+  width: 25px;
+  height: auto;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+#Author img:hover {
+  cursor: pointer;
+  scale: 260%;
+  translate: -25px;
+  transition: scale 0.3s ease;
+  transition: translate 0.3s ease;
+}
+
+#Author span {
+  opacity: 85%;
+  font-size: 15px;
+}
+
+#Author p {
+  font-size: 16px;
+  margin-top: -15px;
+  opacity: 60%;
+}
+
+#Author a {
+  background-color: rgba(0, 0, 0, 0.055);
+  padding: 5px;
+  border-radius: 20px;
+}
+
+#Author a:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.200);
+  transition: background-color 0.3s ease;
+
+}
+
+#ImageToPlace {
+  /*  background-color: black; */
+  display: flex;
+  align-content: center;
+  width: 35%;
+  height: 100%;
+}
+
+#ImageToPlace img {
+  width: auto;
+  scale: 90%;
+  border-radius: 20px;
+  transition: all 0.5s ease-out;
+
+}
+
+#ImageToPlace img:hover {
+  border-radius: 40px;
+  /*   transition: border-radius 0.3s ease; */
+}
+
+
+
+
+.RightContent {
+  /* background-color: rgb(255, 0, 0); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 40%;
+  height: 2000px;
+}
+
+.TwitterNav {
+  /*  background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 80%;
+  height: 16%;
+  padding-bottom: 40px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.100);
+}
+
+.TwitterNav img {
+  height: 50%;
+  margin: auto;
+  margin-top: -30px;
+}
+
+.TwitterNav span {
+  margin-top: -30px;
+  margin-bottom: 15px;
+  opacity: 60%;
+}
+
+.TwitterNav p {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  text-decoration: underline;
+  transition: all 0.3s ease-out;
+}
+
+.TwitterNav p:hover {
+  cursor: pointer;
+  padding: 10px;
+ 
+  border-radius: 40px;
+  scale: 110%;
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  transition: scale 0.3s ease;
+  
+
+}
+
+.TwitterNav nav{
+  opacity: 50%;
+  text-decoration: underline;
+}
+
+.TwitterNav nav:hover{
+  cursor: pointer;
+  opacity: 70%;
+  transition: opacity 0.3s ease;
+}
+
+.RecomTop{
+  margin-left: -290px;
+/*   background-color: aqua; */
+  margin-top: 50px;
+  width: 40%;
+  height: 16%;
+}
+
+.RecomTop span{
+font-weight: bold;
+font-size: 16px;
+opacity: 90%;
+}
+
+.Container2 ul{
+margin-top: px;
+margin-left: -40px;
+}
+
+.Container2 button{
+  padding: 10px;
+  border-radius: 16px;
+  border: 0px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.Whotofollow{
+/* background-color: bisque; */
+display: flex;
+flex-direction: column;
+margin-top: -120px;
+width: 79%;
+height: 30%;
+}
+
+.Whotofollow p{
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 90%;
+  }
+
+  .Profile1{
+  /*   background-color: aliceblue; */
+    width: 100%;
+    height: 100px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+
+  }
+
+.MemberData{
+  margin-left: 20px;
+  margin-top: -20px;
+}
+
+
+
+  .ProfImg img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+  }
+
+.FollowButton{
+  margin-left: 80px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+  .FollowButton button{
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 100px;
+    transition: all 0.3s ease-out;
+
+  }
+
+  .FollowButton button:hover{
+    cursor: pointer;
+    scale: 110%;
+    transition: scale 0.3s ease;
+
+  }
+
+/* .news {
+  display: flex;
+  flex-direction: column;
+
+} */
+
+  .Recent{
+ /*    background-color: aqua; */
+    width: 79%;
+    height: 200px;
+  }
+
+.Recent p{
+  font-size: larger;
+  opacity: 80%;
+}
+
+  #AuthorImage{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .Recent img{
+    height: 40px;
+    border-radius: 20px;
+  }
+
+  .Recent a{
+    font-size: 15px;
+    opacity: 50%;
+  }
+
+  .BottomNav ul{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 120px;
+    margin-left: -80px;
+    width: 60%;
+    height: 50px;
+    opacity: 60%;
+
+  }
+
+  .BottomNav ul span:hover{
+    cursor: pointer;
+  }
+
+  .Footer {
+
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.377) 0%, rgba(0, 0, 0, 0) 100%);
+    width: auto;
+    height: 20px;
+  }
